@@ -50,7 +50,7 @@ class Pessoa {
         return nome + "." + sobrenome + "@" + dominio;
     }
 
-    // Sobrescrevendo o método toString para exibir as informações da pessoa
+    // Aqui eu precisei de ajuda do chatGPT para conseguir concluir essa parte :( 
     @Override
     public String toString() {
         return "Nome: " + nomeSobrenome + ", Altura: " + altura + "m, Data de Nascimento: " + dataNascimento + ", Email: " + email;
